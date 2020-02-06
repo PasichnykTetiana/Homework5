@@ -7,12 +7,12 @@
     padding: 15px;
     display: flex;
     justify-content: flex-end;
-    }
+}
 #nav-bar{display: flex;
     width: 20vw;
     flex-direction: row;
     justify-content: space-around;
-    }
+}
 li  {list-style: none;}
 .a {color: #000;
     text-decoration: none;}
@@ -51,18 +51,18 @@ button {padding: 13px;
     border-radius: 2px;
     border: none;
     width: 150px;
-   }
-.container-f {max-width: 1000px;
+}
+.container-f {max-width: 10000px;
     width: 100%;
     background-color: #eee;
-margin-top: 280px; }
+    margin-top: 280px; }
 #ull {display: flex;
     /*min-height: 1500px;*/
     /*width: 1800vw;*/
     flex-direction: row;
     width: 60vw;
 
-    }
+}
 .about {text-decoration: none;
     flex-direction: row;}
 #ull-right {display: flex;
@@ -79,3 +79,6 @@ span {    width: 60vw;
     display: flex;
     justify-content: flex-start;
     margin: auto}
+#end {display: flex;
+    padding: 0 80px; /*Граница у нижних от краев непонятно откуда*/
+    }
