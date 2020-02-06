@@ -69,7 +69,7 @@ button {padding: 13px;
     padding: 0;
 }
 .ullull {display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
     margin-left: auto
@@ -80,5 +80,5 @@ span {    width: 60vw;
     justify-content: flex-start;
     margin: auto}
 #end {display: flex;
-    padding: 0 80px; /*Граница у нижних от краев непонятно откуда*/
+    padding: 0 8px; 
     }
